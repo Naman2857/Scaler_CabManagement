@@ -1,0 +1,26 @@
+[
+    {
+        "id":0,
+        "label":"Place_A"
+    },
+    {
+        "id":1,
+        "label":"Place_B"
+    },
+    {
+        "id":2,
+        "label":"Place_C"
+    },
+    {
+        "id":3,
+        "label":"Place_D"
+    },
+    {
+        "id":4,
+        "label":"Place_E"
+    },
+    {
+        "id":5,
+        "label":"Place_F"
+    }
+]

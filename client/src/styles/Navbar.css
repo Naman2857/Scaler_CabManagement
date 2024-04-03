@@ -1,0 +1,42 @@
+/* Assuming you have styles defined for 'navbar', 'navbar-text', and 'navbar-buttons' */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* To push buttons to the right */
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.navbar-text {
+  font-size: 24px; /* Adjust font size as needed */
+  flex-grow: 1; /* Allow the text to grow and take available space */
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navbar-buttons a {
+  margin-left: 20px; /* Adjust spacing between buttons as needed */
+  text-decoration: none;
+  color: #333; /* Adjust color as needed */
+  font-size: 18px; /* Adjust font size as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 1px solid #333; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  transition: color 0.3s, border-color 0.3s; /* Smooth transition effect */
+}
+
+/* Add margin to the last button */
+.navbar-buttons a:last-child {
+  margin-right: 20px; /* Adjust margin to leave a gap on the right side */
+}
+
+.navbar-buttons a:hover {
+  color: #666; /* Darker color on hover */
+  border-color: #666; /* Darker border color on hover */
+}
+
+/* Adjust icon size if necessary */
+.navbar-buttons .fa-lg {
+  font-size: 24px;
+}
